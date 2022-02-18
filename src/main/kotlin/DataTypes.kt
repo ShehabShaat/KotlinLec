@@ -1,20 +1,28 @@
 // val name = "Shehab"
 fun main(args : Array<String>) {
-    var name = "shehab"
+    var  name  = "shehab"
     name = "shehab shaat"
     println(name)
 
-    val age = 21
+    val age: Int = 21
     println(age)
-    val department = "Computer S Engineer"
+    val department : String = "Computer S Engineering"
     print(department+"\n")
-    val avg = 75.5
-    print(avg)
+    val avg :Double = 75.5
+    println(avg)
+
+    val job:String
+    job = "Engineer"
+    println(job)
 }
 
 
 /*Important Notes
 *Always make the name of the variables indicate their name.
+*  \n can be used instead of println
 * val ==> "Variable only to read"
 * var ==> "Adjustable variable"
+* in some cases , you need to identified type variable , like | val department : String = "Computer S Engineer"
+* That is, it has "must" to be a String value and so on.
+* In some cases, we need a variable definition and give it value ,But you must specify the type of the variable , like | val job:String
 *  */
