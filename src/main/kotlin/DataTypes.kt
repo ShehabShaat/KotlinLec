@@ -2,18 +2,18 @@
 fun main(args : Array<String>) {
     var  name  = "shehab"
     name = "shehab shaat"
-    println(name)
+    println(name) //get name
 
     val age: Int = 21
-    println(age)
+    println(age) //get age
     val department : String = "Computer S Engineering"
     print(department+"\n")
     val avg :Double = 75.5
-    println(avg)
+    println(avg) //get average
 
     val job:String
     job = "Engineer"
-    println(job)
+    println(job)//get job
 }
 
 
