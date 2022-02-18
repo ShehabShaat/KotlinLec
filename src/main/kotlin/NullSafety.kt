@@ -10,8 +10,7 @@ fun main(args: Array<String>) {
     print(name)
 }
 /*
-
-* null safety : means the program is "not executed" if it is null
+* null safety : means the program is "not executed" if variable value is null
 To apply null safety, we put a "!!" after the variable name , like |  println(name!!)
 *  println(name!!) | It means that this variable must have a value
 * "!!" Force the variable to have a value
