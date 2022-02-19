@@ -38,4 +38,6 @@ fun main() {
        else -> print("Fail")
    }
     //when as "menu" and like if else
+
+
 }
