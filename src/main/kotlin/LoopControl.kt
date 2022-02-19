@@ -20,7 +20,7 @@ fun main() {
         for (item2 in 1..3) {
             println("count $item1 ")
             if (item2 == 3) {
-                break@loop//In that case, he "comes out "of all the repetition.
+                break@loop//In this case, he "comes out "of all the repetition.
             }
         }
 
