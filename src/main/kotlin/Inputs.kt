@@ -1,4 +1,9 @@
+import java.util.*
+
 fun main(args : Array<String>) {
+
+    val reader = Scanner(System.`in`)
+
     print("Enter first name : ")
     var firstName :String ?=null
     firstName = readLine()
@@ -12,6 +17,9 @@ fun main(args : Array<String>) {
     print("Enter average : ")
     val avg :Double =  readLine()!!.toDouble()
     println(avg)
+    print("Enter number : ")
+    val num :Int =reader.nextInt()
+    println(num)
 
 }
 
