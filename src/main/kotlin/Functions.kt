@@ -20,9 +20,19 @@ fun main() {
     println("sum [ "+array1[item] +" , "+array2[item]+ " ] = $sum")
     }
 
-    print("=======================")
+    println("=======================")
+    name("shehab")
+    println("=======================")
+    name()
 
 }
 fun num (num1:Int,num2:Int):Int{
     return num1+num2
+}
+fun name(name:String){
+    print(name)
+}
+
+fun name(){
+    print("name")
 }
