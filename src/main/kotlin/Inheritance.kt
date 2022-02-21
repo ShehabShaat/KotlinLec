@@ -1,4 +1,13 @@
- open class Operation{ //"open" meaning that this class can be inherited | 1
+
+
+/**
+ * casting
+ * modifier
+ * inheritance
+ * override*/
+
+
+open class Operation{ //"open" meaning that this class can be inherited | 1
 private  var presses :Int = 10
     open fun sum(num1:Int,num2:Int):Int{//protected : It cannot be accessed from the main method, but it can be accessed by the inherited class
          return num1+num2
@@ -35,7 +44,7 @@ private  var presses :Int = 10
      var op = Operation()
      op.sum(5,5)
      op.sub(5,6)
-     var mult1=MultiOperation() as Operation
+     var mult1=MultiOperation() as Operation //Casting
     println( mult1.sum(5,5))
     println( mult1.sub(6,5))
 //    println( mult1.multi(7,5))

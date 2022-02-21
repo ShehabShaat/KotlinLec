@@ -1,9 +1,11 @@
-interface oper{
+package oop
+
+interface UserOp{
     fun sum(num1:Int,num2:Int):Int
     fun sub(num1:Int,num2:Int)
 
 }
-class UserOp:oper{
+class HelloInterface :UserOp{
     override fun sum(num1: Int, num2: Int):Int {
         return num1+num2
     }
@@ -13,7 +15,7 @@ class UserOp:oper{
     }
 
 }
-class UserOp1:oper{
+class HelloInterface1:UserOp{
     override fun sub(num1: Int, num2: Int) {
         println(num1 - num2)
     }
@@ -23,14 +25,7 @@ class UserOp1:oper{
     }
 }
 
-fun main(args: Array<String>) {
-    var userop =UserOp()
-    userop.sub(5,5)
-    println(userop.sum(5,5))
-    var userop1 =UserOp1()
-     userop1.sub(5,5)
-    println( userop1.sum(5,5))
-}
+
 /**
  * interface used in android as listview and Gps , sensor
  * */
