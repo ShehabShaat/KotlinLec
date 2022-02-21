@@ -4,7 +4,8 @@
  * casting
  *accesses  modifier
  * inheritance
- * override*/
+ * override
+ * */
 
 open class Operation{ //"open" meaning that this class can be inherited | 1
 private  var presses :Int = 10
